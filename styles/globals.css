@@ -565,8 +565,23 @@ a {
 }
 
 .react-tabs__tab{
-  padding: 1rem 8rem;
+display: flex;
+flex-direction: row;
+  background: #33353d;
+  color: white;
+  text-align: center;
+  width: 33%;
+  padding: 1rem !important;
+  /* border: 1px solid rgba(238, 130, 238, 0.034)) !important; */
 }
+
+
+.react-tabs__tab-list{
+  border-bottom: 0px solid ;
+
+  border: none
+}
+
 
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 .logo-font {
@@ -577,5 +592,9 @@ a {
   .flex-r {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto auto;
+  }
+  .react-tabs__tab{
+    width: 100%;
+
   }
 }
