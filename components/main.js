@@ -15,17 +15,12 @@ export default function Main() {
       </div>
 
       <div className="row mt-5">
-        
-
-        <div className="col-lg-9 col-sm-12 bor"></div>
-
-        <div className="col-lg-2 col-sm-4  side-box ml-auto">
-          <h1 className="text-center pt-5">ADS</h1>
+        <div className="col-lg-12 col-sm-12 ">
+          <TabPage />
         </div>
+
+       
       </div>
-
-      <TabPage/>
-
     </div>
   );
 }
