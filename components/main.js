@@ -1,11 +1,12 @@
 import React from "react";
+import TabPage from "./landingPage/tabs";
 
 export default function Main() {
   return (
     <div className="container-fluid">
       <div className="flex-r">
         <div className="nav-box text-center">
-          <p>TODAYS PREDICTION</p>
+          <p>TODAY</p>
         </div>
 
         <div className="nav-box text-center">YESTERDAY</div>
@@ -14,16 +15,17 @@ export default function Main() {
       </div>
 
       <div className="row mt-5">
-        <div className="col-lg-2 col-sm-4 side-box">
-          <h1 className="text-center pt-5">ADS</h1>
-        </div>
+        
 
-        <div className="col-lg-6 col-sm-12 bor"></div>
+        <div className="col-lg-9 col-sm-12 bor"></div>
 
-        <div className="col-lg-2 col-sm-4  side-box">
+        <div className="col-lg-2 col-sm-4  side-box ml-auto">
           <h1 className="text-center pt-5">ADS</h1>
         </div>
       </div>
+
+      <TabPage/>
+
     </div>
   );
 }

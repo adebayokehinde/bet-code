@@ -14,14 +14,15 @@ export default function Toolbar({ drawerClickHandler, children }) {
       <header className="toolbar">
         <nav className="toolbar__navigation container">
           <div className="toolbar__logo">
-            <Link href="/">
+            {/* <Link href="/">
               <img
                 className="Newlogo"
                 style={{ width: "120px" }}
                 src={fullLogo}
                 alt="logo"
               />
-            </Link>
+            </Link> */}
+            <h1 className="logo-font">Numero</h1>
           </div>
           <div className="spacer" />
           <div className="toolbar_navigation-items">
