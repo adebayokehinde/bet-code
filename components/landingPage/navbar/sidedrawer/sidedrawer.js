@@ -77,12 +77,13 @@ function SideDrawer(props) {
         <div className="container">
           <div className="pt-2 pb-2">
             <Link href="/">
-              <img
+              {/* <img
                 className="Newlogo"
                 style={{ width: "120px" }}
                 alt="logo"
                 // src={fullLogo}
-              />
+              /> */}
+              <h1 className="logo-font">Numero</h1>
             </Link>
           </div>
           <ul className="m-nav-order ">

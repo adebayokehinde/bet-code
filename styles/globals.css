@@ -237,7 +237,7 @@ a {
 }
 
 .toolbar_navigation-items a {
-  color: #5a1d65;
+  color: #000000;
   text-decoration: none;
   font-size: 1.1rem;
 }
@@ -542,7 +542,7 @@ a {
 
 .bor {
   border: 1px solid #1d1c1c34;
-  /* margin: 0 auto; */
+  margin: 0 auto;
 }
 
 .flex-r {
@@ -564,10 +564,10 @@ a {
   object-fit: contain;
 }
 
-.react-tabs__tab{
-display: flex;
-flex-direction: row;
-  background: #33353d;
+.react-tabs__tab {
+  display: flex;
+  flex-direction: row;
+  background: #459B51;
   color: white;
   text-align: center;
   width: 33%;
@@ -575,13 +575,37 @@ flex-direction: row;
   /* border: 1px solid rgba(238, 130, 238, 0.034)) !important; */
 }
 
-
-.react-tabs__tab-list{
-  border-bottom: 0px solid ;
-
-  border: none
+.react-tabs__tab-list {
+  border-bottom: 0px solid;
+  border: none;
 }
 
+/* .punt{
+
+} */
+.prediction-tab{
+  width: 100%;
+  max-width: 600px;
+}
+
+.ul-table-heading{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  list-style: none
+}
+
+.ul-table-heading-li{
+  padding: 1rem;
+  text-decoration: none;
+  list-style: none !important;
+  list-style-type: none !important;
+  text-align: center;
+
+}
+
+.news-card{
+
+}
 
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 .logo-font {
@@ -593,8 +617,13 @@ flex-direction: row;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto auto;
   }
-  .react-tabs__tab{
+  .react-tabs__tab {
     width: 100%;
-
   }
+
+  .predict {
+    overflow: scroll;
+    overflow-x: scroll;
+  }
+
 }
