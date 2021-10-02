@@ -1,5 +1,6 @@
 import React from "react";
 import { Us, Er, It, De, Pt } from "react-flags-select";
+import { motion } from "framer-motion";
 
 export default function Predictions() {
   return (
@@ -17,38 +18,46 @@ export default function Predictions() {
         </div>
 
         <div className="">
-          <ul className="ul-table-heading">
+          <motion.ul whileHover={{ scale: 1.1, rotate: 0 }}
+            whileTap={{ scale: 0.8, rotate: 0, borderRadius: "100%" }} className="ul-table-heading">
             <li className="ul-table-heading-li">14:30 pm</li>
             <li className="ul-table-heading-li">
               <Er /> ENG
             </li>
             <li className="ul-table-heading-li">Che vs Man. City</li>
             <li className="ul-table-heading-li">GG</li>
-          </ul>
-          <ul className="ul-table-heading">
+          </motion.ul>
+          <motion.ul whileHover={{ scale: 1.1, rotate: 0 }}
+            whileTap={{ scale: 0.8, rotate: 0, borderRadius: "100%" }} className="ul-table-heading">
             <li className="ul-table-heading-li">14:30 pm</li>
             <li className="ul-table-heading-li">
               <It /> ITA
             </li>
             <li className="ul-table-heading-li">Sassuolo vs . City</li>
             <li className="ul-table-heading-li">GG</li>
-          </ul>
-          <ul className="ul-table-heading">
+          </motion.ul>
+          <motion.ul whileHover={{ scale: 1.1, rotate: 0 }}
+            whileTap={{ scale: 0.8, rotate: 0, borderRadius: "100%" }} className="ul-table-heading">
             <li className="ul-table-heading-li">19:00 pm</li>
             <li className="ul-table-heading-li">
               <Pt /> ENG
             </li>
             <li className="ul-table-heading-li">Porto vs Pacos Ferreira </li>
             <li className="ul-table-heading-li">GG</li>
-          </ul>
-          <ul className="ul-table-heading">
+          </motion.ul>
+
+          <motion.ul
+            whileHover={{ scale: 1.1, rotate: 0 }}
+            whileTap={{ scale: 0.8, rotate: 0, borderRadius: "100%" }}
+            className="ul-table-heading"
+          >
             <li className="ul-table-heading-li">19:00 pm</li>
             <li className="ul-table-heading-li">
               <De /> GER{" "}
             </li>
             <li className="ul-table-heading-li">Leipzig vs Bochum </li>
             <li className="ul-table-heading-li">GG</li>
-          </ul>
+          </motion.ul>
         </div>
       </div>
     </>
