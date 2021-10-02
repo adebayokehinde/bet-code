@@ -19,7 +19,7 @@ export default function Predictions() {
 
         <div className="">
           <motion.ul whileHover={{ scale: 1.1, rotate: 0 }}
-            whileTap={{ scale: 0.8, rotate: 0, borderRadius: "100%" }} className="ul-table-heading">
+             className="ul-table-heading">
             <li className="ul-table-heading-li">14:30 pm</li>
             <li className="ul-table-heading-li">
               <Er /> ENG
@@ -28,7 +28,7 @@ export default function Predictions() {
             <li className="ul-table-heading-li">GG</li>
           </motion.ul>
           <motion.ul whileHover={{ scale: 1.1, rotate: 0 }}
-            whileTap={{ scale: 0.8, rotate: 0, borderRadius: "100%" }} className="ul-table-heading">
+             className="ul-table-heading">
             <li className="ul-table-heading-li">14:30 pm</li>
             <li className="ul-table-heading-li">
               <It /> ITA
@@ -37,7 +37,7 @@ export default function Predictions() {
             <li className="ul-table-heading-li">GG</li>
           </motion.ul>
           <motion.ul whileHover={{ scale: 1.1, rotate: 0 }}
-            whileTap={{ scale: 0.8, rotate: 0, borderRadius: "100%" }} className="ul-table-heading">
+             className="ul-table-heading">
             <li className="ul-table-heading-li">19:00 pm</li>
             <li className="ul-table-heading-li">
               <Pt /> ENG
@@ -48,7 +48,7 @@ export default function Predictions() {
 
           <motion.ul
             whileHover={{ scale: 1.1, rotate: 0 }}
-            whileTap={{ scale: 0.8, rotate: 0, borderRadius: "100%" }}
+            
             className="ul-table-heading"
           >
             <li className="ul-table-heading-li">19:00 pm</li>
