@@ -29,9 +29,11 @@ export default function Toolbar({ drawerClickHandler, children }) {
             <ul>
               
               <li className="nav-it">
+                <Link href="#">1XBET</Link>
+              </li>
+              <li className="nav-it">
                 <Link href="#">Contact</Link>
               </li>
-              
             </ul>
           </div>
           <div className="toolbar__toggle-button">
