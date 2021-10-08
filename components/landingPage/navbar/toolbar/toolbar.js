@@ -22,7 +22,7 @@ export default function Toolbar({ drawerClickHandler, children }) {
                 alt="logo"
               />
             </Link> */}
-            <h1 className="logo-font">Numero</h1>
+            <h1 className="logo-font">Green tips</h1>
           </div>
           <div className="spacer" />
           <div className="toolbar_navigation-items">

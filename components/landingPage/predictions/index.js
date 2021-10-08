@@ -7,7 +7,7 @@ export default function Predictions() {
     <>
       <div>
         <span>
-          <h3>3 Odds Sure Banker </h3>
+          <h3 className="heading-c">3 Odds Sure Banker </h3>
         </span>
         <div className="prediction-tab bor">
           <div className="">
@@ -73,7 +73,7 @@ export default function Predictions() {
 
       <div className="mt-5">
         <span>
-          <h3>Predictions </h3>
+          <h3 className="heading-c">Predictions </h3>
         </span>
         <div className="prediction-tab bor">
           <div className="">

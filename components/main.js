@@ -5,7 +5,7 @@ import TabPage from "./landingPage/tabs";
 export default function Main() {
   return (
     <div className="container-fluid">
-      <div className="flex-r">
+      <div className="grid-r">
         <div className="nav-box text-center">
           <p>TODAY</p>
         </div>

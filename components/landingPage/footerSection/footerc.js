@@ -7,7 +7,7 @@ export default function FooterC() {
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-md-6">
-              <h6>Numero.</h6>
+              <h6>Green tips.</h6>
               <p className="text-justify"> Tips for punters </p>
             </div>
             

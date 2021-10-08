@@ -83,7 +83,7 @@ function SideDrawer(props) {
                 alt="logo"
                 // src={fullLogo}
               /> */}
-              <h1 className="logo-font">Numero</h1>
+              <h1 className="logo-font">Green tips</h1>
             </Link>
           </div>
           <ul className="m-nav-order ">
