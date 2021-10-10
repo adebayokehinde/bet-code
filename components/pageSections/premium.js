@@ -5,7 +5,7 @@ export default function Premium() {
     <>
       <div className="mt-5 mb-5">
         <section className="container">
-          <div className="col-lg-6 col-sm-12 pl-5">
+          <div className="col-lg-6 col-sm-12 ">
             <h2 className="heading-a"> Premium Packages </h2>
             Green Tips Premium Tip is a service that picks the best bets to help
             our users maximize winning chances and experience the joy of daily
@@ -62,11 +62,11 @@ export default function Premium() {
             <p>
               Please be informed that there will be no refunds and credits are
               not exchangable for cash. By opting to receive soccer predictions
-              and tips, you accept that all meritpredict’s predictions and tips
-              are for informational purposes only and that meritpredict will
+              and tips, you accept that all Green TIps’s predictions and tips
+              are for informational purposes only and that Green TIps will
               take no responsibility for any losses incurred by you, the
               subscriber, as a direct result of acting upon received
-              Meritpredict’s information. We do not encourage gambling in any
+              Green TIps’s information. We do not encourage gambling in any
               sort of form. Users under 18 years old must seek parental consent.{" "}
             </p>
           </div>
