@@ -594,7 +594,7 @@ a {
 
 .ul-table-heading {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   list-style: none;
 }
 
@@ -672,6 +672,10 @@ a {
   color: #f5a623;
 }
 
+.m-auto{
+  margin:0px auto;
+}
+
 .flex-r {
   display: flex;
   flex-direction: row;
@@ -693,6 +697,19 @@ a {
 
 .heading-c{
   font-family: 'Staatliches', cursive;
+}
+
+.code-button{
+  background: green;
+  color: white;
+  padding: 0.2rem 1rem;
+  border: none;
+}
+
+
+
+.con-link:hover{
+  color: green;
 }
 
 @media (max-width: 760px) {

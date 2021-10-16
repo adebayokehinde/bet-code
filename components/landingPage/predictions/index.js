@@ -16,6 +16,8 @@ export default function Predictions() {
               <div className="ul-table-heading-li">League</div>
               <div className="ul-table-heading-li">Match</div>
               <div className="ul-table-heading-li">Pick</div>
+              <div className="ul-table-heading-li">Odds</div>
+
             </div>
 
             <hr />
@@ -32,6 +34,8 @@ export default function Predictions() {
               </li>
               <li className="ul-table-heading-li">Che vs Man. City</li>
               <li className="ul-table-heading-li">GG</li>
+              <li className="ul-table-heading-li">1.3</li>
+
             </motion.ul>
             <motion.ul
               whileHover={{ rotate: 0, y: -10 }}
@@ -43,6 +47,8 @@ export default function Predictions() {
               </li>
               <li className="ul-table-heading-li">Sassuolo vs . City</li>
               <li className="ul-table-heading-li">GG</li>
+              <li className="ul-table-heading-li">1.5</li>
+
             </motion.ul>
             <motion.ul
               whileHover={{ rotate: 0, y: -10 }}
@@ -54,6 +60,8 @@ export default function Predictions() {
               </li>
               <li className="ul-table-heading-li">Porto vs Pacos Ferreira </li>
               <li className="ul-table-heading-li">GG</li>
+              <li className="ul-table-heading-li">1.32</li>
+
             </motion.ul>
 
             <motion.ul
@@ -66,6 +74,8 @@ export default function Predictions() {
               </li>
               <li className="ul-table-heading-li">Leipzig vs Bochum </li>
               <li className="ul-table-heading-li">GG</li>
+              <li className="ul-table-heading-li">1.2</li>
+
             </motion.ul>
           </div>
         </div>
@@ -82,6 +92,8 @@ export default function Predictions() {
               <div className="ul-table-heading-li">League</div>
               <div className="ul-table-heading-li">Match</div>
               <div className="ul-table-heading-li">Pick</div>
+              <div className="ul-table-heading-li">Odds</div>
+
             </div>
 
             <hr />
@@ -98,6 +110,8 @@ export default function Predictions() {
               </li>
               <li className="ul-table-heading-li">Che vs Man. City</li>
               <li className="ul-table-heading-li">GG</li>
+              <li className="ul-table-heading-li">1.7</li>
+
             </motion.ul>
             <motion.ul
               whileHover={{ rotate: 0, y: -10 }}
@@ -109,6 +123,8 @@ export default function Predictions() {
               </li>
               <li className="ul-table-heading-li">Sassuolo vs . City</li>
               <li className="ul-table-heading-li">GG</li>
+              <li className="ul-table-heading-li">1.8</li>
+
             </motion.ul>
             <motion.ul
               whileHover={{ rotate: 0, y: -10 }}
@@ -120,6 +136,8 @@ export default function Predictions() {
               </li>
               <li className="ul-table-heading-li">Porto vs Pacos Ferreira </li>
               <li className="ul-table-heading-li">GG</li>
+              <li className="ul-table-heading-li">1.4</li>
+
             </motion.ul>
 
             <motion.ul
@@ -132,6 +150,8 @@ export default function Predictions() {
               </li>
               <li className="ul-table-heading-li">Leipzig vs Bochum </li>
               <li className="ul-table-heading-li">GG</li>
+              <li className="ul-table-heading-li">1.6</li>
+
             </motion.ul>
           </div>
         </div>

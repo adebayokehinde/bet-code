@@ -8,7 +8,6 @@ const fullLogo =
 import DrawerToggleButton from "../sidedrawer/drawertogglebutton";
 
 export default function Toolbar({ drawerClickHandler, children }) {
-
   return (
     <>
       <header className="toolbar">
@@ -22,12 +21,13 @@ export default function Toolbar({ drawerClickHandler, children }) {
                 alt="logo"
               />
             </Link> */}
-            <h1 className="logo-font">Green tips</h1>
+            <Link href="/">
+              <h1 className="logo-font">Green tips</h1>
+            </Link>
           </div>
           <div className="spacer" />
           <div className="toolbar_navigation-items">
             <ul>
-              
               <li className="nav-it">
                 <Link href="#">Telegram</Link>
               </li>
@@ -42,7 +42,6 @@ export default function Toolbar({ drawerClickHandler, children }) {
               click={drawerClickHandler}
             />
           </div>
-        
         </nav>
       </header>
     </>
