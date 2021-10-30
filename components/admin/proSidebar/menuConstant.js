@@ -4,16 +4,16 @@ export  const navItems = [
       iClass:'bi bi-grid-1x2-fill',
       subItem: [
         {
-          name: "My Orders",
+          name: "Picks",
           iClass:'bi bi-person-bounding-box',
           items: [
             {
-              name: "My Orders",
-              link: "/userDashboard/userOrders/ordersList",
+              name: "Expert Picks",
+              link: "/admin/form/picks",
             },
             {
-              name: "Create Order",
-              link: "/userDashboard/userOrders/createOrder",
+              name: "1.5 Rollover",
+              link: "/admin/form/picks",
             }
           ]
         }
