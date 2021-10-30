@@ -76,7 +76,7 @@ function SideDrawer(props) {
       >
         <div className="container">
           <div className="pt-2 pb-2">
-            <Link href="/">
+            <Link href="/" passHref={true}>
               {/* <img
                 className="Newlogo"
                 style={{ width: "120px" }}

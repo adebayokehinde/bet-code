@@ -7,9 +7,11 @@ export default function LandingPage() {
   return (
     <>
       <NavbarComponent />
+      <div className="">
         <div className="container mt-5 mb-5">
-            <Main />
+          <Main />
         </div>
+      </div>
       <FooterC />
     </>
   );

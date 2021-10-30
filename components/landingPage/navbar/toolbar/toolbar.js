@@ -21,7 +21,7 @@ export default function Toolbar({ drawerClickHandler, children }) {
                 alt="logo"
               />
             </Link> */}
-            <Link href="/">
+            <Link href="/" passHref={true}>
               <h1 className="logo-font">Green tips</h1>
             </Link>
           </div>

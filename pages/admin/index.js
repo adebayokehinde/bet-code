@@ -1,18 +1,19 @@
+import React from "react";
 import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
-import LandingPage from "./landingPage";
+import ThirdLayout from '../../components/admin/proSidebar/layout'
+import AdminDashboard from "../../components/admin/main";
 
-export default function Home() {
+
+const AdminDashboardPage = () => {
   return (
     <>
       <Head>
-        <title> Greeen Tips</title>
+        <title> Dash Logistics</title>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1.0"
         ></meta>
-        {/* <link rel="icon" href={theLogo} /> */}
+        <link rel="icon" href="/favicon.ico" />
         <link
           rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -29,23 +30,24 @@ export default function Home() {
           rel="styleSheet"
           href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         />
-
-        {/* <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css"
-          integrity="sha512-42kB9yDlYiCEfx2xVwq0q7hT4uf26FUgSIZBK8uiaEnTdShXjwr8Ip1V4xGJMg3mHkUt9nNuTDxunHF0/EgxLQ=="
-          crossorigin="anonymous"
-          referrerpolicy="no-referrer"
+        <link
+          rel="styleSheet"
+          href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         />
-     */}
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+        />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/icon?family=Material+Icons"
+         />{" "}
       </Head>
-
-      <div className="">
-
-      <LandingPage />
-
-      </div>
-      
+      <ThirdLayout>
+        <AdminDashboard/>
+      </ThirdLayout>
     </>
   );
-}
+};
+
+export default AdminDashboardPage;

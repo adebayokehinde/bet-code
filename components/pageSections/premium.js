@@ -18,7 +18,7 @@ export default function Premium() {
               className="page-card flex-c  mx-auto "
             >
               <span className="icon flex-c mb-5 mt-5">
-                <img src="https://img.icons8.com/ios-filled/50/000000/world-cup.png" />{" "}
+                <img src="https://img.icons8.com/ios-filled/50/000000/world-cup.png" alt="icon" />{" "}
               </span>
 
               <span className="text">
@@ -35,7 +35,7 @@ export default function Premium() {
               className="page-card flex-c  mx-auto"
             >
               <span className="icon flex-c mb-5 mt-5">
-                <img src="https://img.icons8.com/ios-filled/50/000000/medal.png" />{" "}
+                <img src="https://img.icons8.com/ios-filled/50/000000/medal.png" alt="icon" />{" "}
               </span>
 
               <span className="text">
