@@ -13,7 +13,7 @@ export  const navItems = [
             },
             {
               name: "1.5 Rollover",
-              link: "/admin/form/picks",
+              link: "/admin/rollover",
             }
           ]
         }

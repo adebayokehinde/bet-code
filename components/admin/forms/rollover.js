@@ -3,8 +3,8 @@ import React from "react";
 export default function Rollover() {
   return (
     <>
-      <div className="form-box m-auto">
-          <p><b>Expert Pick</b></p>
+      <div className="form-box m-auto ">
+          <p><b>1.5 Rollover Picks</b></p>
         <form className="flex-c">
           <span className="form-grid p-3">
             {" "}
@@ -25,10 +25,9 @@ export default function Rollover() {
             {" "}
             <label className="">League</label>
             <select name="cars" id="cars">
-              <option value="volvo">Volvo</option>
-              <option value="saab">Saab</option>
-              <option value="mercedes">Mercedes</option>
-              <option value="audi">Audi</option>
+              <option value="volvo">England</option>
+              <option value="saab">Spain</option>
+              <option value="mercedes">Germany</option>
             </select>
           </span>
           <span className="form-grid p-3">
